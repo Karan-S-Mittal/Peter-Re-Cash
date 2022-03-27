@@ -36,7 +36,7 @@ layout = dbc.Row(
                     multi=True,
                 ),
             ],
-            width=2,
+            width=3,
         ),
         # Maps
         dbc.Col(
@@ -51,7 +51,7 @@ layout = dbc.Row(
                     },
                 ),
             ],
-            width=10,
+            width=9,
         ),
     ],
 )
