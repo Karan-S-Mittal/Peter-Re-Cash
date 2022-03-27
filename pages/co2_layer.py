@@ -15,7 +15,9 @@ dash.register_page(
     title="Co2 Layer",
 )
 
-main_df = pd.read_csv("./data/re_cash_columns.csv")
+main_df = pd.read_csv(
+    "https://media.githubusercontent.com/media/Karan-S-Mittal/Peter-Re-Cash/main/data/re_cash_columns.csv"
+)
 
 print(main_df.info())
 
