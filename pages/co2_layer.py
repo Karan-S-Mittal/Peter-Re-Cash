@@ -17,6 +17,8 @@ dash.register_page(
 
 main_df = pd.read_csv("./data/re_cash_columns.csv")
 
+print(main_df.info())
+
 gde_name_list = main_df["GDENAME"].unique()
 # Main
 layout = dbc.Row(
